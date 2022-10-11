@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0932A63D27B2FDA500BAF752 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932A63C27B2FDA500BAF752 /* RoundedView.swift */; };
+		09A4A3F427B35D460067280E /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A4A3F327B35D460067280E /* RoundedImageView.swift */; };
+		09D4DD5D27AC54BA001A281A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4DD5C27AC54BA001A281A /* AppDelegate.swift */; };
+		09D4DD5F27AC54BA001A281A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4DD5E27AC54BA001A281A /* SceneDelegate.swift */; };
+		09D4DD6127AC54BA001A281A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4DD6027AC54BA001A281A /* ViewController.swift */; };
+		09D4DD6427AC54BA001A281A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D4DD6227AC54BA001A281A /* Main.storyboard */; };
+		09D4DD6627AC54BC001A281A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D4DD6527AC54BC001A281A /* Assets.xcassets */; };
+		09D4DD6927AC54BC001A281A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D4DD6727AC54BC001A281A /* LaunchScreen.storyboard */; };
+		09E20E7027BC292E00E3835C /* LEMONMILK-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6827BC292E00E3835C /* LEMONMILK-MediumItalic.otf */; };
+		09E20E7127BC292E00E3835C /* LEMONMILK-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6927BC292E00E3835C /* LEMONMILK-Light.otf */; };
+		09E20E7227BC292E00E3835C /* LEMONMILK-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6A27BC292E00E3835C /* LEMONMILK-Medium.otf */; };
+		09E20E7327BC292E00E3835C /* LEMONMILK-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6B27BC292E00E3835C /* LEMONMILK-Regular.otf */; };
+		09E20E7427BC292E00E3835C /* LEMONMILK-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6C27BC292E00E3835C /* LEMONMILK-RegularItalic.otf */; };
+		09E20E7527BC292E00E3835C /* LEMONMILK-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6D27BC292E00E3835C /* LEMONMILK-Bold.otf */; };
+		09E20E7627BC292E00E3835C /* LEMONMILK-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6E27BC292E00E3835C /* LEMONMILK-BoldItalic.otf */; };
+		09E20E7727BC292E00E3835C /* LEMONMILK-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09E20E6F27BC292E00E3835C /* LEMONMILK-LightItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0932A63C27B2FDA500BAF752 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		09A4A3F327B35D460067280E /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		09D4DD5927AC54BA001A281A /* GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D4DD5C27AC54BA001A281A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09D4DD5E27AC54BA001A281A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09D4DD6027AC54BA001A281A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09D4DD6327AC54BA001A281A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09D4DD6527AC54BC001A281A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09D4DD6827AC54BC001A281A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09D4DD6A27AC54BC001A281A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E20E6827BC292E00E3835C /* LEMONMILK-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-MediumItalic.otf"; sourceTree = "<group>"; };
+		09E20E6927BC292E00E3835C /* LEMONMILK-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Light.otf"; sourceTree = "<group>"; };
+		09E20E6A27BC292E00E3835C /* LEMONMILK-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Medium.otf"; sourceTree = "<group>"; };
+		09E20E6B27BC292E00E3835C /* LEMONMILK-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Regular.otf"; sourceTree = "<group>"; };
+		09E20E6C27BC292E00E3835C /* LEMONMILK-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-RegularItalic.otf"; sourceTree = "<group>"; };
+		09E20E6D27BC292E00E3835C /* LEMONMILK-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Bold.otf"; sourceTree = "<group>"; };
+		09E20E6E27BC292E00E3835C /* LEMONMILK-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-BoldItalic.otf"; sourceTree = "<group>"; };
+		09E20E6F27BC292E00E3835C /* LEMONMILK-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-LightItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09D4DD5627AC54BA001A281A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D4DD5027AC54BA001A281A = {
+			isa = PBXGroup;
+			children = (
+				09D4DD5B27AC54BA001A281A /* GPA Calculator */,
+				09D4DD5A27AC54BA001A281A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09D4DD5A27AC54BA001A281A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09D4DD5927AC54BA001A281A /* GPA Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D4DD5B27AC54BA001A281A /* GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				09E20E6727BC291C00E3835C /* Fonts */,
+				09A4A3F327B35D460067280E /* RoundedImageView.swift */,
+				0932A63C27B2FDA500BAF752 /* RoundedView.swift */,
+				09D4DD5C27AC54BA001A281A /* AppDelegate.swift */,
+				09D4DD5E27AC54BA001A281A /* SceneDelegate.swift */,
+				09D4DD6027AC54BA001A281A /* ViewController.swift */,
+				09D4DD6227AC54BA001A281A /* Main.storyboard */,
+				09D4DD6527AC54BC001A281A /* Assets.xcassets */,
+				09D4DD6727AC54BC001A281A /* LaunchScreen.storyboard */,
+				09D4DD6A27AC54BC001A281A /* Info.plist */,
+			);
+			path = "GPA Calculator";
+			sourceTree = "<group>";
+		};
+		09E20E6727BC291C00E3835C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				09E20E6D27BC292E00E3835C /* LEMONMILK-Bold.otf */,
+				09E20E6E27BC292E00E3835C /* LEMONMILK-BoldItalic.otf */,
+				09E20E6927BC292E00E3835C /* LEMONMILK-Light.otf */,
+				09E20E6F27BC292E00E3835C /* LEMONMILK-LightItalic.otf */,
+				09E20E6A27BC292E00E3835C /* LEMONMILK-Medium.otf */,
+				09E20E6827BC292E00E3835C /* LEMONMILK-MediumItalic.otf */,
+				09E20E6B27BC292E00E3835C /* LEMONMILK-Regular.otf */,
+				09E20E6C27BC292E00E3835C /* LEMONMILK-RegularItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09D4DD5827AC54BA001A281A /* GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D4DD6D27AC54BC001A281A /* Build configuration list for PBXNativeTarget "GPA Calculator" */;
+			buildPhases = (
+				09D4DD5527AC54BA001A281A /* Sources */,
+				09D4DD5627AC54BA001A281A /* Frameworks */,
+				09D4DD5727AC54BA001A281A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPA Calculator";
+			productName = "GPA Calculator";
+			productReference = 09D4DD5927AC54BA001A281A /* GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09D4DD5127AC54BA001A281A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					09D4DD5827AC54BA001A281A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 09D4DD5427AC54BA001A281A /* Build configuration list for PBXProject "GPA Calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09D4DD5027AC54BA001A281A;
+			productRefGroup = 09D4DD5A27AC54BA001A281A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09D4DD5827AC54BA001A281A /* GPA Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09D4DD5727AC54BA001A281A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E20E7227BC292E00E3835C /* LEMONMILK-Medium.otf in Resources */,
+				09D4DD6927AC54BC001A281A /* LaunchScreen.storyboard in Resources */,
+				09D4DD6627AC54BC001A281A /* Assets.xcassets in Resources */,
+				09E20E7327BC292E00E3835C /* LEMONMILK-Regular.otf in Resources */,
+				09E20E7027BC292E00E3835C /* LEMONMILK-MediumItalic.otf in Resources */,
+				09E20E7127BC292E00E3835C /* LEMONMILK-Light.otf in Resources */,
+				09D4DD6427AC54BA001A281A /* Main.storyboard in Resources */,
+				09E20E7527BC292E00E3835C /* LEMONMILK-Bold.otf in Resources */,
+				09E20E7427BC292E00E3835C /* LEMONMILK-RegularItalic.otf in Resources */,
+				09E20E7627BC292E00E3835C /* LEMONMILK-BoldItalic.otf in Resources */,
+				09E20E7727BC292E00E3835C /* LEMONMILK-LightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D4DD5527AC54BA001A281A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0932A63D27B2FDA500BAF752 /* RoundedView.swift in Sources */,
+				09A4A3F427B35D460067280E /* RoundedImageView.swift in Sources */,
+				09D4DD6127AC54BA001A281A /* ViewController.swift in Sources */,
+				09D4DD5D27AC54BA001A281A /* AppDelegate.swift in Sources */,
+				09D4DD5F27AC54BA001A281A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09D4DD6227AC54BA001A281A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09D4DD6327AC54BA001A281A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09D4DD6727AC54BC001A281A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09D4DD6827AC54BC001A281A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09D4DD6B27AC54BC001A281A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09D4DD6C27AC54BC001A281A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D4DD6E27AC54BC001A281A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C7NN8GF35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GPA Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CMSC428.GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		09D4DD6F27AC54BC001A281A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C7NN8GF35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GPA Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CMSC428.GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D4DD5427AC54BA001A281A /* Build configuration list for PBXProject "GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D4DD6B27AC54BC001A281A /* Debug */,
+				09D4DD6C27AC54BC001A281A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D4DD6D27AC54BC001A281A /* Build configuration list for PBXNativeTarget "GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D4DD6E27AC54BC001A281A /* Debug */,
+				09D4DD6F27AC54BC001A281A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09D4DD5127AC54BA001A281A /* Project object */;
+}
